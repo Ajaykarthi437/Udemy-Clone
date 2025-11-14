@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Udemy Clone</title>
+    <link rel="icon" type="image/x-icon" href="./img/images.png">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <!--My Style Sheet-->
+    <link rel="stylesheet" href="style.css" />
+    <!--Font Awesome Link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <!-- Logo -->
+        <div class="logo__s1">
+            <h1>Udemy</h1>
+        </div>
+
+        <!-- Search bar -->
+        <div class="search-bar__s2">
+            <input type="text"  placeholder=" Search for anything....." style="font-weight: lighter;" />
+        </div>
+
+        <!-- Navigation links -->
+        <div class="nav-links__s3">
+            <a href="#">Plans & Pricing</a>
+            <a href="#">Udemy Business</a>
+            <a href="#">Teach on Udemy</a>
+        </div>
+
+        <!-- Buttons & Icons -->
+        <div class="logo__s4">
+            <i class="fa-solid fa-cart-arrow-down" style="color: #010409;"></i>
+
+            <button class="button-one">Log in</button>
+            <button class="button-two">Sign up</button>
+            <button class="button-three"><i class="fa-solid fa-globe" style="color: #000205;"></i></button>
+
+        </div>
+    </header>
+    <!--Catogories-->
+    <div class="catogories">
+        <p>Development</p>
+        <p>Bussiness</p>
+        <p>IT&Software</p>
+        <p>Personal Development</p>
+        <p>Design</p>
+        <p>Marketing</p>
+
+    </div>
+    <!--Sale-image-->
+    <div class="sale-image">
+        <img src="img/sale.png">
+    </div>
+
+    <!--Recommanded-->
+    <div class="recommanded">
+        <h1 class="recommanded__title">Recommanded for you</h1>
+        <h3 style="margin-top: 5px;">Pick the best fit</h3>
+        <div class="recommanded__container">
+            <div class="course-card">
+                <img src="img/c1.jpg">
+                <h3>2023 Python Data Visualization</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="img/c2.jpg">
+                <h3>Web Development Bootcamp 2023</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="img/c3.jpg">
+                <h3>Master UI/UX Designing with Figma</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="img/c4.jpg">
+                <h3>Basic to Advance Programming with EMC</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="img/c5.webp">
+                <h3>2023 C Programming</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="img/c6.webp">
+                <h3>Data Structure & Algorithims</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="img/c7.avif">
+                <h3>Python AI & ML</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="img/c8.avif">
+                <h3>Basic FullStack Programming with EMC</h3>
+                <p>Col Steele</p>
+                <p class="ratings">4.9⭐⭐⭐⭐</p>
+                <p class="price">449 <del>1999</del></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="recommended-topics">
+        <h2>Recommended Topics</h2>
+
+        <!-- Suggested topics -->
+        <div class="topic-list">
+            <span>Web Development</span>
+            <span>Python</span>
+            <span>Excel</span>
+            <span>Data Science</span>
+            <span>Graphic Design</span>
+            <span>Machine Learning</span>
+        </div>
+
+        <!-- Input for user suggestions -->
+        <div class="topic-input">
+            <input type="text" placeholder="Suggest a topic..." />
+            <button>Submit</button>
+        </div>
+    </div>
+
+    <!--Popular Courses-->
+    <div class="popular-courses">
+        <h2>Popular Courses</h2>
+
+        <div class="courses">
+
+            <!-- Course 1 -->
+            <div class="course-card">
+                <img src="img/c6.webp" alt="Course Image">
+                <h3>JavaScript for Beginners - 2023</h3>
+                <p class="rating">⭐ 4.9 (4,300 reviews)</p>
+                <p class="price">$12.99</p>
+            </div>
+
+            <!-- Course 2 -->
+            <div class="course-card">
+                <img src="img/c7.avif" alt="Course Image">
+                <h3>Complete Web Development Bootcamp</h3>
+                <p class="rating">⭐ 4.8 (9,120 reviews)</p>
+                <p class="price">$15.99</p>
+            </div>
+
+            <!-- Course 3 -->
+            <div class="course-card">
+                <img src="img/c2.jpg" alt="Course Image">
+                <h3>React & Frontend Mastery - 2025 </h3>
+                <p class="rating">⭐ 4.7 (5,700 reviews)</p>
+                <p class="price">$14.99</p>
+            </div>
+
+            <!-- Course 4 -->
+            <div class="course-card">
+                <img src="img/c8.avif" alt="Course Image">
+                <h3>Python Programming Bootcamp</h3>
+                <p class="rating">⭐ 4.6 (7,850 reviews)</p>
+                <p class="price">$11.99</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Footer Section-->
+
+    <footer class="footer">
+        <div class="footer-links">
+
+            <div class="footer-column">
+                <h4>Udemy Business</h4>
+                <a href="#">Teach on Udemy</a>
+                <a href="#">Get the app</a>
+                <a href="#">About us</a>
+                <a href="#">Contact us</a>
+            </div>
+
+            <div class="footer-column">
+                <h4>Careers</h4>
+                <a href="#">Blog</a>
+                <a href="#">Help and Support</a>
+                <a href="#">Affiliate</a>
+                <a href="#">Investors</a>
+            </div>
+
+
+
+            <div class="footer-column">
+                <h4>Terms</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Cookie Settings</a>
+                <a href="#">Sitemap</a>
+                <a href="#">Accessibility</a>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <img src="img/images.png" alt="Logo" class="footer-logo">
+            <p>© 2025 Udemy Clone. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
