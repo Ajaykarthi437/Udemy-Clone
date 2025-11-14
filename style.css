@@ -68,7 +68,8 @@ body {
 
 }
 
-.button-one,.button-three {
+.button-one,
+.button-three {
     color: #a435f0;
     font-weight: bolder;
     cursor: pointer;
@@ -148,13 +149,13 @@ body {
     height: 50%;
 }
 
-.course-card .ratings{
+.course-card .ratings {
     color: #ff9800;
     font-weight: bold;
     margin: 10px;
 }
 
-.course-card .price{
+.course-card .price {
     font-size: 20px;
     color: #333;
     margin: 10px;
@@ -244,8 +245,7 @@ body {
 /*Popular Courses*/
 
 .popular-courses {
-    max-width: 1100px;
-    margin: 10px;
+    width: 100%;
 
 }
 
@@ -257,10 +257,12 @@ body {
 
 .courses {
     display: flex;
-    flex-wrap: wrap;
+
+    width: 100%;
+
     gap: 20px;
-    justify-content: center;
-    margin: auto;
+    justify-content: space-evenly;
+
 }
 
 .course-card {
